@@ -9,8 +9,11 @@ import java.util.List;
 
 
 //Entity-manager
+/*
+Har hand om all databashantering
+ */
 @Transactional
-public class itemService {
+public class ItemService {
 
     @PersistenceContext
     EntityManager entityManager;
